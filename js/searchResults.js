@@ -45,7 +45,7 @@ const createResultImage = (result) => {
 
     const img = document.createElement("img");
     img.src = result.img;
-    img.src = result.title;
+    img.title = result.title;
     resultImage.append(img);
     return resultImage;
 }
